@@ -88,3 +88,12 @@ const checkBaggage = function (items) {
 checkBaggage('I have a laptop, some Food and a pocket Knife');
 checkBaggage('Socks and camera');
 checkBaggage('Got some snacks and a gun for protection');
+
+// split & join method
+console.log('a+very+nice+string'.split('+'));
+console.log('Gorakh Raj Joshi'.split(' '));
+const [firstName, middleName, lastName] = 'Gorakh Raj Joshi'.split(' ');
+const newName = ['Mr.', firstName, middleName, lastName.toUpperCase()].join(
+  ' '
+);
+console.log(newName);
