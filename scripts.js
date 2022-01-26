@@ -109,3 +109,16 @@ const capitalizeName = function (name) {
 };
 capitalizeName('jessica ann smith davis');
 capitalizeName('gorakh raj joshi');
+
+// Padding
+const message = 'Go to gate 23!';
+console.log(message.padStart(20, '+').padEnd(30, '+'));
+console.log('gorakh'.padStart(20, '+').padEnd(30, '+'));
+const maskCreditCard = function (number) {
+  const str = number + '';
+  const last = str.slice(-4);
+  return last.padStart(str.length, '*');
+};
+console.log(maskCreditCard(64637836));
+console.log(maskCreditCard(43378463864647384));
+console.log(maskCreditCard('334859493847755774747'));
