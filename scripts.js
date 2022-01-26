@@ -32,3 +32,9 @@ const checkMiddleSeat = function (seat) {
 checkMiddleSeat('11B');
 checkMiddleSeat('23C');
 checkMiddleSeat('3E');
+
+const companyName = new String('Bitpoint');
+console.log(companyName);
+console.log(typeof new String('Bitpoint'));
+
+console.log(typeof new String('Bitpoint').slice(1));
