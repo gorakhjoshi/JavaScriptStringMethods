@@ -8,3 +8,7 @@ console.log('NA143'[0]);
 
 console.log(airline.length);
 console.log('NA143'.length);
+
+console.log(airline.indexOf('l'));
+console.log(airline.lastIndexOf('l'));
+console.log(airline.indexOf('Airlines'));
