@@ -38,3 +38,12 @@ console.log(companyName);
 console.log(typeof new String('Bitpoint'));
 
 console.log(typeof new String('Bitpoint').slice(1));
+
+console.log(airline.toLowerCase());
+console.log(airline.toUpperCase());
+
+const passenger = 'gOrakh';
+const passengerLower = passenger.toLowerCase();
+const passengerCorrect =
+  passengerLower[0].toUpperCase() + passengerLower.slice(1);
+console.log(passengerCorrect);
